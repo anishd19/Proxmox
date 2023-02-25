@@ -20,9 +20,9 @@ EOF
 header_info
 echo -e "Loading..."
 APP="Ubuntu"
-var_disk="2"
-var_cpu="1"
-var_ram="512"
+var_disk="512"
+var_cpu="2"
+var_ram="8192"
 var_os="ubuntu"
 var_version="22.04"
 NSAPP=$(echo ${APP,,} | tr -d ' ')
